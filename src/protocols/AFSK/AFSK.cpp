@@ -47,7 +47,7 @@ int16_t AFSKClient::noTone(bool keepOn) {
   return(_phy->standby());
 }
 
-int16_t AFSKClient::tones(float baseFreq, uint8_t* bits, size_t len) {
+int16_t AFSKClient::emulateTone(float baseFreq, uint8_t* bits, size_t len) {
   // set fixed packet length mode
   int16_t state = _phy->fixedPacketLengthMode(len);
   RADIOLIB_ASSERT(state);
