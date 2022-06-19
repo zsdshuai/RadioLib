@@ -302,6 +302,11 @@ class PhysicalLayer {
 
     virtual Module* getMod() = 0;
 
+    virtual int16_t setPreambleLength(uint16_t preambleLength) = 0;
+    virtual int16_t setCrcFiltering(bool crcOn) = 0;
+    virtual int16_t fixedPacketLengthMode(uint8_t preambleLength) = 0;
+    virtual int16_t setBitRate(float br) = 0;
+
   protected:
     void updateDirectBuffer(uint8_t bit);
 

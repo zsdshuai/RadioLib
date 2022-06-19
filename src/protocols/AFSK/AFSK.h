@@ -52,6 +52,8 @@ class AFSKClient  {
     */
     int16_t noTone(bool keepOn = false);
 
+    int16_t emulateTone(float baseFreq, uint8_t* bits, size_t len);
+
 #if !defined(RADIOLIB_GODMODE)
   private:
 #endif
