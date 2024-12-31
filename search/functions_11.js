@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['variablepacketlengthmode_602',['variablePacketLengthMode',['../class_c_c1101.html#a50b9e73d2d82a4cd03841f465825b73f',1,'CC1101::variablePacketLengthMode()'],['../class_r_f69.html#af434c67aabe02258ee6696a59973617b',1,'RF69::variablePacketLengthMode()'],['../class_si443x.html#abcca8ab4a1229efb5e7c6b09e564a48a',1,'Si443x::variablePacketLengthMode()'],['../class_s_x126x.html#a92c157efe751b4ae73d22ff44115285d',1,'SX126x::variablePacketLengthMode()'],['../class_s_x127x.html#a1d39296b40e7282ef44d8f376065e92c',1,'SX127x::variablePacketLengthMode()']]]
+  ['updatefirmware_1147',['updateFirmware',['../class_l_r11x0.html#ab2820cc2b740d6d42a079bbd8bd45b85',1,'LR11x0']]],
+  ['updategnssalmanac_1148',['updateGnssAlmanac',['../class_l_r11x0.html#a96aa9566399e46fc03f2b73b44058e3f',1,'LR11x0']]],
+  ['uploadpatch_1149',['uploadPatch',['../class_s_x126x.html#a2af78b744b3e61d3857bed93c3b1bde1',1,'SX126x']]],
+  ['userepeaters_1150',['useRepeaters',['../class_a_p_r_s_client.html#a454fb0a3423f75e909b16640b27b176a',1,'APRSClient']]]
 ];
